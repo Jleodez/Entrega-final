@@ -1,0 +1,10 @@
+footer{
+    background-color: $color-fondo-azuloscuro;
+    div{
+        display: flex;
+        li{
+            font-size: 2rem;
+            list-style: none
+        }
+    }
+}

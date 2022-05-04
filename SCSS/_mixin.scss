@@ -1,0 +1,17 @@
+@mixin parrafos {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+.parrafosConEstilo{
+    @include parrafos;
+}
+@mixin parrafoConParametros($size,$alineacion) {
+    font-size: $size;
+    text-align: $alineacion;
+    
+}
+.parrafosConEstilo {
+    @include parrafoConParametros(3rem,right)
+}
